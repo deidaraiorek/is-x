@@ -1,0 +1,14 @@
+{
+  "name": "is-x-installer",
+  "version": "0.0.3",
+  "description": "Multi-language number comparison utility - CLI Installer",
+  "main": "index.js",
+  "bin": {
+    "is-x": "./bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "is-x-js": "^1.0.0"
+  }
+}
