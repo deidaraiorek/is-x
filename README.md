@@ -14,7 +14,7 @@ is-x/
 
 ## Packages
 
-### CLI Installer (@is-x/installer)
+### CLI Installer (is-x-installer)
 
 ```bash
 npm install -g is-x-installer
@@ -31,16 +31,16 @@ is-x install javascript
 is-x install python
 ```
 
-### JavaScript (@is-x/js)
+### JavaScript (is-x-js)
 
 ```bash
-npm install @is-x/js
+npm install is-x-js
 ```
 
 Usage:
 
 ```javascript
-const { is } = require("@is-x/js");
+const { is } = require("is-x-js");
 
 // Set target number
 is(20).setX();
@@ -96,12 +96,8 @@ All implementations support:
 
 We welcome contributions! Each package has its own contributing guidelines.
 
-## License
-
-ISC
-
 ## Package Links
 
 - CLI Installer: [is-x-installer](https://www.npmjs.com/package/is-x-installer)
-- JavaScript: [@is-x/js](https://www.npmjs.com/package/@is-x/js)
+- JavaScript: [is-x-js](https://www.npmjs.com/package/is-x-js)
 - Python: [is-x-py](https://pypi.org/project/is-x-py/)
